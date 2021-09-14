@@ -1,6 +1,6 @@
 {
   "name": "@signalk/streams",
-  "version": "1.19.0",
+  "version": "1.19.1",
   "description": "Utilities for handling streams of Signal K data",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "dependencies": {
     "@canboat/canboatjs": "^1.4.0",
     "@signalk/client": "^2.1.0",
-    "@signalk/n2k-signalk": "^2.0.0",
+    "mwilliford/n2k-signalk": "latest",
     "@signalk/nmea0183-signalk": "^3.0.0",
     "@signalk/nmea0183-utilities": "^0.8.0",
     "@signalk/signalk-schema": "^1.5.0",
